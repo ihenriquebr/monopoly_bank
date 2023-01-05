@@ -38,12 +38,9 @@ def bank_settings():
         if num_players == 0:
             continue
         elif num_players == 1:
-            print(yw("You can't play alone. Let's play Rock-Paper-Scissors!"))
-            sleep(1.5)
-            lin()
-            import modules.jokenpo
-            exit() 
-            
+            print(yw("You can't play alone."))
+            continue
+
         lin()
         
         # Names
