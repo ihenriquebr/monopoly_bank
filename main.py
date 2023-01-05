@@ -6,7 +6,7 @@ from modules.style import *
 from modules.colors import *
 
 # Banner
-banner(color_banner(' Monopoly Banker '))
+banner(color_banner(' Monopoly Bank '))
 print(rd('[Type 0 to cancel/return]'))
 sleep(1.5)
 lin()
