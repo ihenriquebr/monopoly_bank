@@ -16,7 +16,7 @@ settings = bank_settings()
 players = settings[0]
 money = settings[1]
 
-# Banker
+# Bank
 instructions = 2 # Variable to show red instructions
 max_players = len(players) - 1
 
