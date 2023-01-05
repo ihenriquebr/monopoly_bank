@@ -10,7 +10,7 @@ def ask_correct():
         if 0 <= ask <= 1:
             return ask
 
-# Functions in 'Game settings'
+# Functions in 'Bank settings'
 def players_names(num):
     names = []
     
@@ -27,8 +27,8 @@ def players_names(num):
     return names
 
 
-# Game settings
-def game_settings():
+# Bank settings
+def bank_settings():
     while True:
         # Number of Players
         num_players = check_int(bd('How many players? '))
@@ -36,12 +36,8 @@ def game_settings():
         if num_players == 0:
             continue
         elif num_players == 1:
-            print(yw("You can't play alone. Let's play Rock-Paper-Scissors!"))
-            sleep(1.5)
-            lin()
-            import modules.jokenpo
-            exit() 
-            
+            print(yw("You can't play alone."))
+            continue
         lin()
         
         # Names
