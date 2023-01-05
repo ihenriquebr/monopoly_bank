@@ -1,5 +1,3 @@
-# If you don't have the emoji module, please type in the terminal: py -m pip install emoji~=1.6.3
-
 # Modules
 from time import sleep
 from modules.functions import *
